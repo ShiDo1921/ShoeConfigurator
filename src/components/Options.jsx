@@ -1,13 +1,10 @@
 import React from 'react'
 import { Picker } from './Picker'
-import TextureImporter from './TextureImporter'
 
 const Options = () => {
   return (
     <div style={styles.optionContainer}>
         <Picker />
-        <TextureImporter />
-
     </div>
   )
 }
